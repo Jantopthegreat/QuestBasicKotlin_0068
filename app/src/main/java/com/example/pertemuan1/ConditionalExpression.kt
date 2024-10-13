@@ -39,7 +39,7 @@ fun ConditionalStatement() {
     }
 }
 
-    fun Perulangan() {
+fun Perulangan() {
         println()
         println("=== Perulangan ===")
 
@@ -51,8 +51,24 @@ fun ConditionalStatement() {
             println("Car type: $car")
         }
 
+        var x = 1
+        while (x <= 5) {
+            println("Perulangan ke-$x")
+            x++
+        }
 
-    }
+        var y = 1
+        do {
+            println("Perulangan ke-$y")
+            y++
+        } while (y <= 5)
+}
+
+
+
+
+
+
 
 
 
